@@ -17,6 +17,11 @@ const getAllDrivers = async (req, res) => {
     }
 }
 
+/**
+ * GET: api/drivers/search?
+ * @param {*} req 
+ * @param {*} res 
+ */
 const searchDrivers = async (req, res) => {
     try {
 
@@ -31,6 +36,11 @@ const searchDrivers = async (req, res) => {
     }
 }
 
+/**
+ * GET: api/drivers/search?name=daniel
+ * @param {*} req 
+ * @param {*} res 
+ */
 const searchDriversByName = async (req, res) => {
     try {
 

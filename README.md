@@ -29,9 +29,10 @@ This REST API was built as a hobby project so that users can get F1 drivers info
 
 ### API Endpoints
 
-| HTTP Verbs | Endpoints    | Action             |
-| ---------- | ------------ | ------------------ |
-| GET        | /api/drivers | To get all drivers |
+| HTTP Verbs | Endpoints                       | Action                                      |
+| ---------- | ------------------------------- | ------------------------------------------- |
+| GET        | /api/drivers                    | To get all drivers                          |
+| GET        | /api/drivers/search?name=daniel | Get all drivers that matches the name query |
 
 ### Technologies Used
 
