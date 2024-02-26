@@ -1,0 +1,5 @@
+@uri = http://localhost:4300/api
+
+###
+// Get drivers 200 OK
+GET {{uri}}/drivers
