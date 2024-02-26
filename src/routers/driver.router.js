@@ -7,4 +7,6 @@ const DriverController = require('../controllers/driver.controller');
  */
 router.get('/', DriverController.getAllDrivers);
 
+router.get('/search', DriverController.searchDrivers);
+
 module.exports = router;
